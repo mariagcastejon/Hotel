@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="industria.css" />
+		<script type="text/javascript" src="industria.js"></script>
+		<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+		<meta charset="UTF-8">
+		<title>Hoteles Mavial</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   		<link rel="stylesheet" type="text/css" href="calendario.css"/>
+		<script defer type="text/javascript" src="calendario.js"></script>
+	</head>
+
+	<body onload="showlocation()">
+		<div class="nav">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="industria.html">Hoteles Mavial</a>
+                    <ul class="nav navbar-nav">
+                          <li><a href="enconstruccion.html">Restaurante</a></li>
+                       <li><a href="enconstruccion.html">Rooms</a></li>
+                       <li><a href="enconstruccion.html">Spa</a></li>
+                       <li><a href="enconstruccion.html">Excurtion</a></li>
+                     </ul>
+           </div>
+        </nav>
+
+		<header>
+			<div class="mavial">Hoteles Mavial
+				<div class="estrellas">
+					<img src="hotel/estrellas.jpg" alt="estrellas">
+				</div>
+			</div>
+	
+			<div class="listMenu">
+				<hr>
+
+				<ul id="inline-block">	
+					<li><a href="enconstruccion.html">Home</a></li>
+					<li><a href="enconstruccion.html">Restaurant</a></li>
+					<li><a href="enconstruccion.html">Rooms</a></a></li>
+					<li><a href="enconstruccion.html">SPA</a></li>
+					<li><a href="enconstruccion.html">Excursions</a></li>
+				</ul>
+
+				<hr>
+			</div>
+		</header>
+
+		<div class="slide centrarhorizontal">  
+        		<img class="img1" src="/hotel/fondo.jpg" />
+        		<img class="img2" src="/hotel/madrid-slide.jpg" />
+        		<img class="img3" src="/hotel/barcelona-slide.jpg" />
+        	</div> 
+
+
+		<aside>
+            <article class="contactus">
+                <div class="asideicons">
+                	<h1>Contacta con<br>nosotros</h1>
+                		<hr>
+                	<h3>Puedes seguirnos<br>en Facebook, Instagram<br> y Twitter</h3>
+
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100004835328640"><div id="imagenfacebook"></div></a></li>
+                        <li><a href="https://twitter.com/HotelesMavial"><div id="imagentwitter"></div></a></li>
+                        <li><a href="http://instagram.com/hotelesmavial/"><div id="imageninstagram"></div></a></li><br>
+                    </ul>
+                    <p class="email">hotelesmavial@gmail.com</p>
+                </div>    
+            </article>
+        </aside>
+
+        <section>
+         
+            	<div id="caja">
+            		<img class="imagen" onclick="showBig(this)" src="hotel/hotelmadrid1.jpg" ></img>
+            		<p class="descripcion">Ubicado en el corazon de la ciudad, a corta distancia de los mas prestigiosos museos de la capital.</p>
+            		<a href="enconstruccion.html" style="text-decoration:none" class="boton1">Madrid</a>
+            	</div>
+
+           
+            	<div id="caja1"> 
+            		<img class="imagen" onclick="showBig1(this)" src="hotel/hotelbarcelona1.jpg"></img>
+            		<p class="descripcion">Ubicado en la avenida principal, cerca del casco antiguo de esta gran ciudad cosmopolita.</p>
+            		<a href="enconstruccion.html" style="text-decoration:none" class="boton1">Barcelona</a>
+            	</div>
+
+                <div id="caja1">
+           	        <img class="imagen" onclick="showBig2(this)" src="hotel/hotelibiza1.jpg" ></img>
+           	        <p class="descripcion">Mavial le ofrece la tranquilidad que usted desea disfrutar en sus vacaciones.</p><a href="enconstruccion.html" style="text-decoration:none" class="boton1">Ibiza</a>
+           	    </div>
+
+		</section>
+		<div id="mapa"></div>
+		<article id="checksplace">
+			<div class="checktime">
+			        <div id="checkin"></div>
+			        <div id="checkout"></div>
+    		</div>
+			   	
+		</article>
+
+			<div id="mapa"></div>
+<footer class="general">
+		<div class="footergeneral">
+
+			<ul id="links">
+				<li><em>NAVIGATION</em></li><br>
+				<li><a target="_blank" href="hotel/enconstruccion.html">Restaurant</a></li>
+				<li><a href="hotel/enconstruccion.html">Rooms</a></li>
+				<li><a href="hotel/enconstruccion.html">Spa</a></li>
+				<li><a href="hotel/enconstruccion.html">Excursions</a></li>
+			</ul>
+		
+			<ul id="links">
+				<li><em>FIND US ON</em></li><br>
+				<li><a href="https://www.facebook.com/profile.php?id=100004835328640">Facebook</a></li>
+				<li><a href="https://twitter.com/HotelesMavial">Twitter</a></li>
+				<li><a href="http://instagram.com/hotelesmavial/">Instagram</a></li>
+			</ul>
+
+			<ul>
+				<li><em>CONTACT US</em></li><br>
+				<li>Hoteles Mavial</li>
+				<li>Madrid, Spain</li>
+				<li>hotelesmavial@gmail.com</li>
+			</ul>
+		</div>
+</footer>
+</body>
+</html>

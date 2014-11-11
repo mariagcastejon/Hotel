@@ -1,0 +1,278 @@
+.navbar-header{
+    font-family: Papyrus, fantasy;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.nav>li{
+    margin: 0px 10px;
+    font-size: 14px;
+}
+
+
+.mavial{
+	font-family: Papyrus, fantasy;
+	font-size: 50px;
+	width: 340px;
+	height: 100px;
+	position: center;
+	margin:0 auto;
+	margin-bottom: 30px;
+	margin-top: 100px;
+	position:relative;
+}
+.estrellas{
+	height: 10px;
+	margin-bottom: 200px;
+	position:absolute;
+	left: 40px;
+}
+
+.listMenu{
+
+	margin: 0 auto;
+	font-weight: bold;
+	font-family: Papyrus, fantasy;
+	font-size: 50px;
+	width: 1200px;
+	height: 100px;
+	font-size: 17px;
+	margin-top: 60px;
+}
+
+ul#inline-block li{
+	display:inline-block;
+	margin: 0px 105px 0px 60px;
+}
+
+ul#inline-block li>a{
+	text-decoration: none;
+	color: black;
+}
+ul#inline-block li>a:hover {
+	text-decoration: underline;
+
+}
+
+body {
+	height: 900px;
+	
+}
+
+
+section.principal{
+
+	width: 100%;
+	height: 550px;
+}
+
+.imgcabezera{
+	background-color:#aaf;
+	margin: 20px auto;
+	width: 90%;
+	height: 100%;
+}
+.hotel5estrellascabezera{
+	width: 100%;
+	height: 100%;
+}
+
+.slide{
+   margin-left: 3%;
+   width: 93%;
+   height: 500px;
+   display:inline-block;
+   position: relative;
+ }
+.slide img{
+   width: 100%;
+   height: 500px;
+   position: absolute;
+}
+.slide .img2, .slide .img3 {
+   display: none;
+}
+
+section {
+	width: 100%;
+	height: 400px;
+
+}
+
+.floatright {
+	float: right;
+	margin-top: -10px;
+}
+
+.boton1 {
+	border: 1px solid #C2C2C2;
+    border-radius: 5px 5px 5px 5px;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px 3px #C2C2C2;
+	margin: 20px 40px 40px 90px;
+	float: left;
+	background-color: white;
+	width: 80px;
+	height:20px;
+	text-align: center;
+}
+
+#caja {
+	box-shadow: 3px 3px 3px 3px #C2C2C2;
+	background-color: white;
+	float: left;
+	width: 20%;
+	height: 430px;
+	margin: 30px 0px 0px 5%;
+}
+#caja1 {
+	box-shadow: 3px 3px 3px 3px #C2C2C2;
+	background-color: white;
+	float: left;
+	width: 20%;
+	height: 430px;
+	margin: 30px 0px 0px 3%;
+}
+.imagen {
+	width: 100%;
+	height: 200px;
+}
+.element {
+	width: 1000px;
+	height: 1000px;
+}
+
+
+
+
+/*-----------------aqui empieza aside-------------------------*/
+aside {
+	width: 300px;
+	height: 660px;
+	float: right;
+	margin:30px 5% 10px 20px;
+}
+
+article.contactus{
+
+	width: 100%;
+	height: 300px;
+	position: relative;
+	text-align: center;
+	font-family: "Andale Mono";
+	font-size: 40px;
+	color: #778899;
+	margin-left: 30px;
+}
+
+div.asideicons{
+	position: absolute;
+	margin-top: 30px;
+}
+
+div.asideicons li{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	margin: center;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+p.email{
+	font-size: 15px;
+
+}
+
+#imagenfacebook {
+  background: url('/hotel/facebook2.jpg') no-repeat;
+  height: 35px;
+  width: 35px;
+}
+#imagenfacebook:hover {
+  background: url('/hotel/facebookactive.jpg') no-repeat;
+  height: 35px;
+  width: 35px;
+}
+#imagentwitter {
+  background: url('/hotel/twitter.png') no-repeat;
+  height: 45px;
+  width: 45px;
+}
+#imagentwitter:hover {
+  background: url('/hotel/twitteractive.png') no-repeat;
+  height: 45px;
+  width: 45px;
+}
+#imageninstagram {
+  background: url('/hotel/instagram.jpg') no-repeat;
+  height: 35px;
+  width: 35px;
+}
+#imageninstagram:hover {
+  background: url('/hotel/instagramactive.jpg') no-repeat;
+  height: 35px;
+  width: 35px;
+}
+/*-------------------aqui acaba aside---------------------------*/
+.footergeneral{
+	width: 1300px;
+	height: 100%;
+	margin:0 auto;
+
+}
+.descripcion {
+	margin: 10px;
+}
+
+footer.general {
+    padding-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+    height: 350px;
+    margin-top: 300px;
+    background: url('/hotel/elegant.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+footer ul {
+
+    list-style: none;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff ;
+    margin-left:13%;
+    text-shadow: 1px -2px 3px black;
+}
+
+em {
+    color:rgba(41, 185, 141, 0.8);
+    text-shadow: 1px -3px 2px black;
+
+}
+
+ul#links li>a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footergeneral{
+    width: 1300px;
+    height: 100%;
+    margin:0 auto;
+
+}
+#mapa {
+	margin: 20px 0px 20px 20px;
+	height: 300px;
+	width: 400px;
+	float: right;
+}
+#checksplace {
+	margin: 10px 10px 10px 10px;
+	display: inline;
+	background: 50px;
+	height: 200px;
+	width: 200px;
+}
