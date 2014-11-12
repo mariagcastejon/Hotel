@@ -1,0 +1,22 @@
+{
+	"valoraciones": [
+		{
+		 "Nombre":"Maria",
+		 "Valoracion":9,
+		 "Comentario":"Todo estupendo"
+		},
+		{
+		 "Nombre":"Alberto",
+		 "Valoracion":9,
+		 "Comentario":"Hotel limpio y a buen precio"
+		},
+		{
+		 "Nombre":"Vitaly",
+		 "Valoracion":9,
+		 "Comentario":"Un trato con el cliente excelente"
+		}
+	]
+}
+
+
+
