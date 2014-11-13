@@ -104,16 +104,16 @@ section {
 }
 
 .boton1 {
-	border: 1px solid #C2C2C2;
-    border-radius: 5px 5px 5px 5px;
+		border: 1px solid #C2C2C2;
 	overflow: hidden;
 	box-shadow: 3px 3px 3px 3px #C2C2C2;
-	margin: 20px 40px 40px 90px;
+	margin-top: 10px;
 	float: left;
 	background-color: white;
-	width: 80px;
-	height:20px;
+	width: 100%;
+	height:50px;
 	text-align: center;
+	padding-top: 0px;
 }
 
 #caja {
@@ -121,7 +121,7 @@ section {
 	background-color: white;
 	float: left;
 	width: 20%;
-	height: 430px;
+	height: 380px;
 	margin: 30px 0px 0px 5%;
 }
 #caja1 {
@@ -129,7 +129,7 @@ section {
 	background-color: white;
 	float: left;
 	width: 20%;
-	height: 430px;
+	height: 380px;
 	margin: 30px 0px 0px 3%;
 }
 .imagen {
@@ -146,7 +146,7 @@ section {
 
 /*-----------------aqui empieza aside-------------------------*/
 aside {
-	width: 300px;
+	width: 22%;
 	height: 660px;
 	float: right;
 	margin:30px 5% 10px 20px;
@@ -226,11 +226,10 @@ p.email{
 
 footer.general {
     padding-top: 30px;
-    margin-left: 0px;
     width: 100%;
     height: 350px;
-    margin-top: 300px;
-    background: url('/hotel/elegant.png');
+   background-color: rgba(0, 0, 0, 0.8);
+
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -263,16 +262,24 @@ ul#links li>a{
     margin:0 auto;
 
 }
-#mapa {
-	margin: 20px 0px 20px 20px;
-	height: 300px;
-	width: 400px;
-	float: right;
+#fathermap{
+margin-top: -100px;
 }
-#checksplace {
-	margin: 10px 10px 10px 10px;
-	display: inline;
-	background: 50px;
-	height: 200px;
-	width: 200px;
+#mapa {
+	
+	height: 300px;
+	width: 1050px;
+
+}
+#checkin{
+
+	margin-left: 1px;
+	width: 49%
+}
+#checkout{
+
+	width: 49%;
+}
+.madrid{
+	background-color: #45f
 }

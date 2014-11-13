@@ -65,3 +65,22 @@ function avanzaSlide(){
        //mostramos la nueva imagen
     mostrar(arrayImagenes[contador]);
 }
+
+var checkIn=document.getElementById("checkin");
+checkIn.onchange=setItem;
+
+function setItem(){
+  var dateIn=checkIn.value
+  if (checkIn.value!=""){
+  window.localStorage.setItem("checkin", dateIn);
+  }
+}
+var checkOut=document.getElementById("checkout");
+checkOut.onchange=setItem1;
+
+function setItem1(){
+  var dateOut=checkOut.value
+  if (checkOut.value!=""){
+  window.localStorage.setItem("checkout", dateOut);
+  }
+}

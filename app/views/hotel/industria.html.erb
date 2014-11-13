@@ -2,23 +2,11 @@
 <html>
 
 	<head>
-		<link rel="stylesheet" type="text/css" href="industria.css" />
-		<script type="text/javascript" src="industria.js"></script>
-		<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
 		<meta charset="UTF-8">
 		<title>Hoteles Mavial</title>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-   		<link rel="stylesheet" type="text/css" href="calendario.css"/>
-		<script defer type="text/javascript" src="calendario.js"></script>
 	</head>
 
-	<body onload="showlocation()">
+	<body>
 		<div class="nav">
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="navbar-header">
@@ -83,32 +71,32 @@
             	<div id="caja">
             		<img class="imagen" onclick="showBig(this)" src="hotel/hotelmadrid1.jpg" ></img>
             		<p class="descripcion">Ubicado en el corazon de la ciudad, a corta distancia de los mas prestigiosos museos de la capital.</p>
-            		<a href="enconstruccion.html" style="text-decoration:none" class="boton1">Madrid</a>
+
+									<input type="date" id="checkin">
+									<input type="date" id="checkout">
+							
+            		<%= link_to (submit_tag "Madrid", class: "boton1"), 'hotel/madrid' %>
             	</div>
 
            
             	<div id="caja1"> 
             		<img class="imagen" onclick="showBig1(this)" src="hotel/hotelbarcelona1.jpg"></img>
             		<p class="descripcion">Ubicado en la avenida principal, cerca del casco antiguo de esta gran ciudad cosmopolita.</p>
-            		<a href="enconstruccion.html" style="text-decoration:none" class="boton1">Barcelona</a>
+            			<input type="date" id="checkin">
+									<input type="date" id="checkout">
+            		<%= link_to (submit_tag "Barcelona", class: "boton1"), 'hotel/madrid' %>
             	</div>
 
                 <div id="caja1">
            	        <img class="imagen" onclick="showBig2(this)" src="hotel/hotelibiza1.jpg" ></img>
-           	        <p class="descripcion">Mavial le ofrece la tranquilidad que usted desea disfrutar en sus vacaciones.</p><a href="enconstruccion.html" style="text-decoration:none" class="boton1">Ibiza</a>
+           	        <p class="descripcion">Mavial le ofrece la tranquilidad en la costa que usted desea disfrutar en sus tan esperadas vacaciones.</p>
+           	        	<input type="date" id="checkin">
+											<input type="date" id="checkout">
+										<%= link_to (submit_tag "Ibiza", class: "boton1"), 'hotel/madrid' %>
            	    </div>
 
 		</section>
-		<div id="mapa"></div>
-		<article id="checksplace">
-			<div class="checktime">
-			        <div id="checkin"></div>
-			        <div id="checkout"></div>
-    		</div>
-			   	
-		</article>
-
-			<div id="mapa"></div>
+		<div id="fathermap"><div id="mapa"></div></div>
 <footer class="general">
 		<div class="footergeneral">
 
