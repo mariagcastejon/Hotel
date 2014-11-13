@@ -1,0 +1,20 @@
+.Nombre{
+	text-align: left;
+    display: inline-block;
+    width: 50%;
+}
+.Valoracion{
+	text-align: right;
+	display: inline-block;
+    width: 50%;
+}
+.caja{background-color: #c0c0c0;
+	text-align: center;
+	width: 500px;
+    height: 100px;
+	margin: 10px;
+	position:relative;
+}
+	position: absolute;
+	right: 10px;
+	top: -15px;

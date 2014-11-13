@@ -1,8 +1,7 @@
 class HotelController < ApplicationController
 	def industria
-		
 	end
-	def show
 
+	def show
 	end
 end
