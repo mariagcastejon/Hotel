@@ -3,17 +3,17 @@
 		{
 		 "Nombre":"Maria",
 		 "Valoracion":9,
-		 "Comentario":"Todo estupendo"
+		 "Comentario":"Excelente hotel con un trato muy profesional. En todo momento se atiende al cliente en todo lo que necesite. Además cuenta con un desayuno magníifico."
 		},
 		{
 		 "Nombre":"Alberto",
 		 "Valoracion":9,
-		 "Comentario":"Hotel limpio y a buen precio"
+		 "Comentario":"Las habitaciones son muy amplias, muy silenciosas y limpias. El hotel está muy bien ubicado, se puede ir a pie a la Plaza Mayor, a la Plaza Santa Ana, al Museo del Prado, el Thyssen, etc. Hay una estación de metro muy cerca. Lo único que me molestó fue el coste de tener conexión a internet en la habitación, era un disparate. Aunque lo compensan con el hecho de que no cobran la conexión en el lobby, pero es incómodo."
 		},
 		{
 		 "Nombre":"Vitaly",
 		 "Valoracion":9,
-		 "Comentario":"Un trato con el cliente excelente"
+		 "Comentario":"Ambiente muy acogedor, estilo clásico y muy confortable. La situación es excelente y el personal muy amable."
 		}
 	]
 }

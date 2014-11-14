@@ -1,11 +1,19 @@
 <html>
 <head>
 </head>
-<body>
+<body class="slidebody">
+	<img class="imge1" src="/show/imge1.jpg" />
+	<img class="imge2" src="/show/imge2.jpg" />
+	<img class="imge3" src="/show/imge3.jpg" />
+	<img class="imge4" src="/show/imge4.jpg" />
+	<img class="imge5" src="/show/imge5.jpg" />
 	<section class="checksplace">
-            <input type="date" id="saveCheckin">
-            <input type="date" id="saveCheckOut">
-    </section>
+    <div class="fathdate">
+	    <input type="date" id="saveCheckin">
+	    <input type="date" id="saveCheckOut"><br>
+	    <%= link_to (submit_tag "Reservar", class: "boton2"), 'madrid' %>
+    </div>
+	</section>
 	<div class="list1"></div>
 </body>
 </html>
